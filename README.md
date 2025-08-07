@@ -19,3 +19,6 @@ Enabling alerting features in Kibana
 👤 Created by: [Anith C]
 🎯 For learning, blue team practice, and building a strong foundation in SIEM tools.
 
+<a href="https://www.linkedin.com/in/anith2931/" target="_blank">
+  <img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
