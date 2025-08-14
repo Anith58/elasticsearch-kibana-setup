@@ -12,7 +12,7 @@ This guide documents the step-by-step process to install, configure, and secure 
 
 ## 🛠️ Step 2: Download Elasticsearch
 
-**Link**: [https://www.elastic.co/downloads/kibana](https://www.elastic.co/downloads/kibana)
+
 ```bash
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.1.0-amd64.deb
 ```
