@@ -6,13 +6,14 @@ This guide documents the step-by-step process to install, configure, and secure 
 
 ## 🔧 Step 1: Download Ubuntu Server
 
-- **Link**: https://www.elastic.co/downloads/elasticsearch
+- **Link**: https://ubuntu.com/download/server
 
 ---
 
 ## 🛠️ Step 2: Download Elasticsearch
 
-
+- **Link**:https://www.elastic.co/downloads/elasticsearch
+- 
 ```bash
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.1.0-amd64.deb
 ```
