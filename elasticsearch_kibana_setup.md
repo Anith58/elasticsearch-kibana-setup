@@ -130,7 +130,7 @@ sudo ufw allow 5601
 
 ```bash
 cd /usr/share/kibana/bin
-./kibana-verification-code
+sudo ./kibana-verification-code
 ```
 
 - Paste the code into the browser
@@ -172,7 +172,7 @@ cd /usr/share/kibana/bin
 
 ```bash
 cd /usr/share/kibana/bin
-./kibana-encryption-keys generate
+sudo ./kibana-encryption-keys generate
 ```
 
 - Copy all 3 keys and save them
@@ -183,7 +183,7 @@ cd /usr/share/kibana/bin
 
 ```bash
 cd /usr/share/kibana/bin
-./kibana-keystore add <setting-name>
+sudo ./kibana-keystore add <setting-name>
 ```
 
 - Paste the value when prompted
@@ -194,6 +194,7 @@ cd /usr/share/kibana/bin
 
 ```bash
 sudo systemctl restart kibana.service
+sudo systemctl restart elasticsearch.service
 ```
 
 - Refresh browser
